@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#B11F1F</color>
+    <color name="colorPrimaryDark">#A81D1D</color>
+    <color name="colorAccent">#FFFF4444</color>
+    <color name="colorAccentLess">#ff7979</color>
+
+
+
+
+    <color name="colorPrimaryText">#B11F1F</color>
+    <color name="colorSecondText">#FFFF4444</color>
+    <color name="colorSecondAccent">#224B26</color>
+
+
+
+
+    <color name="colorWhite">#FFFFFF</color>
+
+
+
+
+    <!--material design-->
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="red_dark" type="color">#FFCC0000</item>
+    <item name="pink_dark" type="color">#E91E63</item>
+    <item name="light_purple" type="color">#FFAA66CC</item>
+    <item name="purple" type="color">#9C27B0</item>
+    <item name="deep_purple" type="color">#673AB7</item>
+    <item name="indigo" type="color">#3F51B5</item>
+    <item name="blue" type="color">#2196F3</item>
+    <item name="light_blue" type="color">#03A9F4</item>
+    <item name="cyan" type="color">#00BCD4</item>
+    <item name="teal" type="color">#009688</item>
+    <item name="green_dark" type="color">#FF669900</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="light_green" type="color">#8BC34A</item>
+    <item name="lime" type="color">#CDDC39</item>
+    <item name="yellow" type="color">#FFEB3B</item>
+    <item name="amber" type="color">#FFC107</item>
+    <item name="orange" type="color">#FF9800</item>
+    <item name="deep_orange" type="color">#FF5722</item>
+    <item name="brown" type="color">#795548</item>
+    <item name="grey" type="color">#9E9E9E</item>
+    <item name="blue_grey" type="color">#607D8B</item>
 </resources>

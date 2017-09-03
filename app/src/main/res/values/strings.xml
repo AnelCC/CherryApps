@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">CherryAppsBlog</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+
+    <array name="icons">
+        <item>@drawable/ic_blogger</item>
+        <item>@drawable/ic_wordpress</item>
+        <item>@drawable/ic_exit</item>
+    </array>
+
+    <array name="icons_accent">
+        <item>@drawable/ic_blogger_accent</item>
+        <item>@drawable/ic_wordpress_accent</item>
+        <item>@drawable/ic_exit_accent</item>
+    </array>
+
+
+    <!-- Drawer options strings -->
+    <string-array name="drawer_items">
+        <item>Blogger</item>
+        <item>Wordpress</item>
+        <item>Exit</item>
+    </string-array>
+
+
+
+    <!-- Utilities-->
+    <string name="error_empty_field">Este campo no puede estar vacío</string>
+    <string name="error_invalid_email_address">Verifica que el email este escrito correctamente</string>
+
+    <!-- General Strings -->
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog messages-->
+    <string name="loading">Loading ...</string>
+    <string name="log_out">¿Are you logout?</string>
 </resources>

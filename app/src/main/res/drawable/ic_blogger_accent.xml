@@ -3,7 +3,7 @@
     android:width="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
-    <path android:fillColor="@color/colorAccentLess"
+    <path android:fillColor="@color/colorAccent"
         android:pathData="M14,13H9.95A1,1 0 0,0 8.95,14A1,1 0 0,0 9.95,15H14A1,1 0 0,0 15,14A1,1 0 0,
         0 14,13M9.95,10H12.55A1,1 0 0,0 13.55,9A1,1 0 0,0 12.55,8H9.95A1,1 0 0,0 8.95,9A1,1 0 0,0 9.95,
         10M16,9V10A1,1 0 0,0 17,11A1,1 0 0,1 18,12V15A3,3 0 0,1 15,18H9A3,3 0 0,1 6,15V8A3,3 0 0,1 9,

@@ -82,7 +82,6 @@
                 android:clickable="true"
                 android:fitsSystemWindows="true"
                 android:focusable="true"
-                android:visibility="gone"
                 android:focusableInTouchMode="true"
                 android:scrollbars="vertical" />
         </FrameLayout>

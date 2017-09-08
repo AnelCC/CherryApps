@@ -12,25 +12,30 @@
 
 
     <array name="icons">
+        <item>@drawable/ic_home</item>
         <item>@drawable/ic_blogger</item>
         <item>@drawable/ic_wordpress</item>
+        <item>@drawable/ic_email</item>
         <item>@drawable/ic_exit</item>
     </array>
 
     <array name="icons_accent">
+        <item>@drawable/ic_home_accent</item>
         <item>@drawable/ic_blogger_accent</item>
         <item>@drawable/ic_wordpress_accent</item>
+        <item>@drawable/ic_email_accent</item>
         <item>@drawable/ic_exit_accent</item>
     </array>
 
 
     <!-- Drawer options strings -->
     <string-array name="drawer_items">
+        <item>Home</item>
         <item>Blogger</item>
         <item>Wordpress</item>
+        <item>Contact</item>
         <item>Exit</item>
     </string-array>
-
 
 
     <!-- Utilities-->
@@ -44,4 +49,7 @@
     <!-- Dialog messages-->
     <string name="loading">Loading ...</string>
     <string name="log_out">¿Are you logout?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

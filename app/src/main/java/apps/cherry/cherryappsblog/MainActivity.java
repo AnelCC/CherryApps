@@ -11,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import apps.cherry.cherryappsblog.blog.FragmentBlog;
+import apps.cherry.cherryappsblog.home.FragmentHome;
 import apps.cherry.cherryappsblog.navegation_drawer.NavigationDrawerCallbacks;
 import apps.cherry.cherryappsblog.navegation_drawer.NavigationDrawerFragment;
 import apps.cherry.cherryappsblog.navegation_drawer.TrackerFragment;
@@ -118,22 +120,42 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerC
             case NavigationDrawerFragment.HOME:
 
                 CURRENT_FRAGMENT_TAG    = TrackerFragment.FRAGMENT_TAG.FRAG_HOME.toString();
-                /*if(fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG) != null){
+                if(fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG) != null){
                     fragment            = (TrackerFragment)fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG);
                     Fragment_Default    = new FragmentHome();
                 }else
-                    fragment = new FragmentHome();*/
+                    fragment = new FragmentHome();
 
                 break;
 
-            case NavigationDrawerFragment.WORKPLAN:
+            case NavigationDrawerFragment.BLOGGER:
 
-                CURRENT_FRAGMENT_TAG    = TrackerFragment.FRAGMENT_TAG.FRAG_CUSTOMER_WORKPLAN.toString();
-                /*if(fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG) != null){
+                CURRENT_FRAGMENT_TAG    = TrackerFragment.FRAGMENT_TAG.FRAG_BLOGGER.toString();
+                if(fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG) != null){
                     fragment            = (TrackerFragment)fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG);
-                    Fragment_Default    = new FragmentWorkPlanList();
+                    Fragment_Default    = new FragmentBlog();
                 }else
-                    fragment = new FragmentWorkPlanList();*/
+                    fragment = new FragmentBlog();
+
+                break;
+            case NavigationDrawerFragment.WORD_PRESS:
+
+                CURRENT_FRAGMENT_TAG    = TrackerFragment.FRAGMENT_TAG.FRAG_BLOGGER.toString();
+                if(fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG) != null){
+                    fragment            = (TrackerFragment)fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG);
+                    Fragment_Default    = new FragmentBlog();
+                }else
+                    fragment = new FragmentBlog();
+
+                break;
+            case NavigationDrawerFragment.CONTACT:
+
+                CURRENT_FRAGMENT_TAG    = TrackerFragment.FRAGMENT_TAG.FRAG_BLOGGER.toString();
+                if(fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG) != null){
+                    fragment            = (TrackerFragment)fragmentManager.findFragmentByTag(CURRENT_FRAGMENT_TAG);
+                    Fragment_Default    = new FragmentBlog();
+                }else
+                    fragment = new FragmentBlog();
 
                 break;
 

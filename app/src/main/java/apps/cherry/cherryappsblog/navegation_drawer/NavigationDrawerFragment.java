@@ -28,8 +28,10 @@ import apps.cherry.cherryappsblog.util.Utilities;
 public class NavigationDrawerFragment extends Fragment implements NavigationDrawerCallbacks {
 
     public static final int HOME                = 0;
-    public static final int WORKPLAN            = 1;
-    public static final int LOGOUT              = 2;
+    public static final int BLOGGER             = 1;
+    public static final int WORD_PRESS          = 2;
+    public static final int CONTACT             = 3;
+    public static final int LOGOUT              = 4;
 
     private NavigationDrawerCallbacks mCallbacks;
     private RecyclerView mDrawerList;

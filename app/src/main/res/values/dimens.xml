@@ -17,4 +17,39 @@
     <dimen name="sizeNormalText">20sp</dimen>
     <dimen name="sizeLargeText">25sp</dimen>
     <dimen name="sizeXLargeText">30sp</dimen>
+
+
+
+    <dimen name="general_margin_xsmall">3dp</dimen>
+    <dimen name="general_margin_small">5dp</dimen>
+    <dimen name="general_margin_medium">10dp</dimen>
+    <dimen name="general_margin_normal">16dp</dimen>
+    <dimen name="general_margin_large">22dp</dimen>
+    <dimen name="general_margin_xlarge">36dp</dimen>
+    <dimen name="general_margin_xxlarge">48dp</dimen>
+
+
+    <dimen name="progress_bar_xsmall">50dp</dimen>
+    <dimen name="progress_bar_small">80dp</dimen>
+    <dimen name="progress_bar_medium">100dp</dimen>
+    <dimen name="progress_bar_normal">120dp</dimen>
+    <dimen name="progress_bar_large">150dp</dimen>
+    <dimen name="progress_bar_xlarge">200dp</dimen>
+    <dimen name="progress_bar_xxlarge">250dp</dimen>
+    <dimen name="progress_bar_xxxlarge">300dp</dimen>
+
+
+    <dimen name="textSizeTabs">7sp</dimen>
+    <dimen name="textSizeXSmall">8sp</dimen>
+    <dimen name="textSizeSmall">10sp</dimen>
+    <dimen name="textSizeMedium">12sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+    <dimen name="textSizeButton">14sp</dimen>
+    <dimen name="textSizeSubhead">16sp</dimen>
+    <dimen name="textSizeTitle">20sp</dimen>
+    <dimen name="textSizeHeadLine">24sp</dimen>
+    <dimen name="textSizeDisplaySmall">34sp</dimen>
+    <dimen name="textSizeDisplayMedium">45sp</dimen>
+    <dimen name="textSizeDisplayNormal">56sp</dimen>
+    <dimen name="textSizeDisplayLarge">112sp</dimen>
 </resources>

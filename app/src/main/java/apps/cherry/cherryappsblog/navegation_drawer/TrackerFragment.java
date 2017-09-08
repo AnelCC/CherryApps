@@ -24,7 +24,9 @@ public class TrackerFragment extends Fragment {
 
     public enum FRAGMENT_TAG {
         FRAG_HOME("home"),
-        FRAG_CUSTOMER_WORKPLAN("customer_work_plan"),;
+        FRAG_BLOGGER("blogger"),
+        FRAG_WORD_PRESS("word_press"),
+        CONTACT("contact");
 
         private final String name;
 
